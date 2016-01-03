@@ -292,6 +292,7 @@
                         }
                         str = _.template( S.template.pm25, { text:text, classname:range, num:pm25 } );
                         $( ".pm25" ).html( str );
+                        $( "#cityswitch" ).show();
                     }catch ( e ) {
                         console.log( "%c " + e + " but not worry its normal for now pm25 cant get from the service", "font-size:25px;color:green;" );
                         $( ".pm25" ).html( "" );

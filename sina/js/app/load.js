@@ -8,7 +8,8 @@ $.extend( S, {
                    };
                 var oLi = $( ".weathertool>li" );
                 $( "#cityswitch" ).on( "click", function() {
-                    oLi.eq( 0 ).animate( { marginTop:"-34px" }, 500 );
+                    oLi.eq( 0 ).animate( { marginTop:"-30px" }, 500 );
+                    $( this ).hide();
                 } );
                 $( ".submit" ).on( "click", function() {
                     oLi.eq( 0 ).animate( { marginTop:"0px" }, 500 );

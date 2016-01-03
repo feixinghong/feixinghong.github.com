@@ -38,12 +38,13 @@ body   * * * * * * * * *{ outline: 1px solid black } */
 .area-1 form .droplist a{color: #666666;    display: block;padding: 0px 16px;border-bottom: 1px solid #c1c1c1}
 .area-1 form .droplist a:hover{background: rgb(255,246,221);color: rgb(231 120 2);}
 .searchbox{position: absolute;top: 100%;width: 255px;/*height: 300px;*/;background: #fff;left: 76px;border: 1px solid #c1c1c1;display: none;box-shadow: 2px 3px 4px #999;z-index: 100}
-.area-1 .weathertool{float: left;margin-left: 21px;margin-top: 11px;height: 32px;overflow:hidden; }
+.area-1 .weathertool{float: left;margin-left: 21px;margin-top: 11px;height: 30px;overflow:hidden; }
 .area-1 .weathertool a{text-decoration: none;color: #666666;line-height: 24px;display: inline-block;font-size: 14px;}
 .area-1 .weathertool span{display: inline-block;}
 .area-1 .weathertool a img{vertical-align: middle;}
+.weathertool li{height: 100%}
 .area-1 .weathertool .weather-info{display: inline-block;}
-.area-1 .cityswitch{padding: 5px;display: inline-block;margin-left: 5px;width: 50px; height: 30px; text-align: center;}
+.area-1 .cityswitch{padding: 5px;display: inline-block;margin-left: 5px;width: 50px; height: 26px; text-align: center;float: right}
 .area-1 .weathertool select{height: 34px;vertical-align: middle;}
 .area-1 form .searchbox a{display: block;padding-left: 10px;line-height: 30px;font-size: 16px;color: #666666;white-space: nowrap;}
 .area-1 form .searchbox .hover a {color:#ff8500;font-weight: bold}
