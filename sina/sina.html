@@ -1059,8 +1059,13 @@
 			<!-- rightside end -->
 		</div>				
 	</div>
-	
+	<div id="container" width="600px" height="600px"></div>
 </body>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=sQshEPluQdqcFCbSd55E9jG3">
+</script>
+<script>var map = new BMap.Map("container");          // 创建地图实例  
+var point = new BMap.Point(116.404, 39.915);  // 创建点坐标  
+map.centerAndZoom(point, 15);                 // 初始化地图，设置中心点坐标和地图级别  </script>
 	<script type="text/javascript" src="./js/lib/jquery.js"></script>
 	<script data-main="./js/main" src="./js/require.js"></script>
 	<script type="text/javascript" src="./js/static/cityMap.js"></script>
