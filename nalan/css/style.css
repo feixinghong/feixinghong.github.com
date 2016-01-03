@@ -6,7 +6,7 @@ display:block;
 height:0;
 visibility:hidden;
 clear:both;
-}
+}/* 
 body * { outline: 2px dotted red }
 body  * * { outline: 2px dotted green }
 body   * * * { outline: 2px dotted orange }
@@ -15,7 +15,7 @@ body   * * * * * { outline: 1px solid red }
 body   * * * * * * { outline: 1px solid green }
 body   * * * * * * * { outline: 1px solid orange }
 body   * * * * * * * * { outline: 1px solid blue }
-body   * * * * * * * * *{ outline: 1px solid black }
+body   * * * * * * * * *{ outline: 1px solid black } */
 .wrap,.mainbar ul{margin: 0px auto;width: 960px;}
 .header{float: right;color: #acaaa5;}
 .header a{line-height: 24px;text-decoration: none;color: #acaaa5;}
