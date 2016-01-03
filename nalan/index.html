@@ -5,6 +5,17 @@
 	<title>nalan</title>
 	<link rel="stylesheet" href="../sina/css/reset.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<script>
+	(function(){
+		var arr=[ "./images/bg_01.jpg","./images/bg_02.jpg" ]
+		var img={}
+		function createimg(e){
+			img=new Image();
+			img.src=e;
+		}
+		arr.map(createimg);
+	})()
+	</script>
 </head>
 <body>
 	<div class="wrap">
@@ -61,7 +72,7 @@
 						 </div>
 					</li>
 					<li>
-						<img src="./images/slider2.jpg" alt="" width="75px" height="75px">
+						<img src="./images/slider2.png" alt="" width="75px" height="75px">
 						<div class="img-detail"> 
 						   <h3>流年私忆</h3>
 						   <p>终点是你我的幸福， 我们独享的幸福。</p>
