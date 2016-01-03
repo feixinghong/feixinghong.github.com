@@ -1,0 +1,13 @@
+fis.match('*.js',{
+	release:'sina/js/$0',
+	useHash:true,
+	optimizer:fis.plugin('uglify-js')
+})
+fis.match('*.css',{
+	useHash:true,
+	optimizer:fis.plugin('clean-css')
+})
+fis.match('*.png',{
+	useHash:true,
+	optimizer:fis.plugin('png-compressor')
+})

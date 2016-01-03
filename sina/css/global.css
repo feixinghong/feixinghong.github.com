@@ -1,0 +1,11 @@
+/*clearfix{
+	overflow: hidden;
+}*/
+.clearfix:after {
+/*overflow: visible;*/
+content:".";
+display:block;
+height:0;
+visibility:hidden;
+clear:both;
+}

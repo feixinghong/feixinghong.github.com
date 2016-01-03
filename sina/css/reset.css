@@ -1,0 +1,145 @@
+/*
+* æ¨¡å—æè¿°ï¼šæµè§ˆå™¨ç”¨æˆ·ä»£ç†æ ·å¼è¡¨ï¼ˆUser Agent Style Sheetsï¼‰é‡ç½®æ ·å¼
+* æ¨¡å—å…¼å®¹ï¼šGoogle Chrome[Webkit]ï¼ˆlatestï¼‰ã€Mozilla Firefoxï¼ˆlatestï¼‰ã€Operaï¼ˆlatestï¼‰ã€Internet Explorerï¼ˆ6+ï¼‰
+* æ¨¡å—ä½œè€…ï¼š@yinchuanwu
+* æ›´æ–°æ—¶é—´ï¼š2015-05-25
+*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+menu,
+form,
+fieldset,
+blockquote,
+pre,
+hr,
+input,
+textarea,
+button,
+select {
+  margin: 0;
+}
+ul,
+ol,
+menu,
+fieldset,
+legend,
+input,
+textarea,
+button,
+caption,
+th,
+td,
+blockquote,
+dir,
+address {
+  padding: 0;
+}
+fieldset,
+iframe,
+img,
+hr {
+  border: none;
+}
+html {
+  overflow: auto;
+  font-family: sans-serif;
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+menu,
+ul,
+ol {
+  list-style: none;
+}
+pre,
+code,
+kbd,
+samp,
+var {
+  font-family: monospace;
+  font-size: 1em;
+}
+pre {
+  overflow: auto;
+}
+input,
+textarea,
+button,
+select,
+optgroup,
+option {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+input,
+button,
+select {
+  overflow: visible;
+  *zoom: 1;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+[hidden],
+template {
+  display: none;
+}
+html {
+  text-size-adjust: 100%;
+}
+html.borderbox *,
+html.borderbox *:before,
+html.borderbox *:after {
+  box-sizing: border-box;
+}
+input,
+textarea {
+  appearance: none;
+  border-radius: 0;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
