@@ -5,7 +5,14 @@
 	<title>nalan</title>
 	<link rel="stylesheet" href="../sina/css/reset.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<script src="../sina/js/lib/jquery.js"></script>
+	<script src="./js/jquery.lazyload.js"></script>
 	<script>
+	$(function() {
+	    $("img.lazy").lazyload({
+	    	threshold : 200
+	    });
+	});
 	(function(){
 		var arr=[ "./images/bg_01.jpg","./images/bg_02.jpg" ]
 		var img={}
@@ -63,7 +70,7 @@
 			<div class="wrap">
 				<ul class="clearfix">
 					<li>
-						<img src="./images/slider1.jpg" alt="" width="75px" height="75px">
+						<img class="lazy" data-original="./images/slider1.jpg" alt="" width="75px" height="75px">
 						<div class="img-detail"> 
 						  <div class="inner">
 						   <h3>时尚漫步</h3>
@@ -72,21 +79,21 @@
 						 </div>
 					</li>
 					<li>
-						<img src="./images/slider2.png" alt="" width="75px" height="75px">
+						<img class="lazy" data-original="./images/slider2.png" alt="" width="75px" height="75px">
 						<div class="img-detail"> 
 						   <h3>流年私忆</h3>
 						   <p>终点是你我的幸福， 我们独享的幸福。</p>
 						 </div>
 					</li>
 					<li>
-						<img src="./images/slider3.jpg" alt="" width="75px" height="75px">
+						<img class="lazy" data-original="./images/slider3.jpg" alt="" width="75px" height="75px">
 						<div class="img-detail"> 
 						   <h3>我的婚礼时光</h3>
 						   <p>终点是你我的幸福， 我们独享的幸福。</p>
 						 </div>
 					</li>
 					<li>
-						<img src="./images/slider4.jpg" alt="" width="75px" height="75px">
+						<img class="lazy" data-original="./images/slider4.jpg" alt="" width="75px" height="75px">
 						<div class="img-detail"> 
 						   <h3>公主的假期</h3>
 						   <p>终点是你我的幸福， 我们独享的幸福。</p>
@@ -105,19 +112,19 @@
 				</div> 
 				<ul class="clearfix">
 					<li>
-						<div class="post"><a href="#"><img src="./images/header_img1.jpg" alt="" width="110px" height="160px"></a></div>
+						<div class="post"><a href="#"><img class="lazy" data-original="./images/header_img1.jpg" alt="" width="110px" height="160px"></a></div>
 						<div class="title"><a href="#">韩式精致</a></div>
 					</li>                                           
 					<li>
-						<div class="post"><a href="#"><img src="./images/header_img2.jpg" alt="" width="110px" height="160px"></a></div>
+						<div class="post"><a href="#"><img class="lazy" data-original="./images/header_img2.jpg" alt="" width="110px" height="160px"></a></div>
 						<div class="title"><a href="#">名流时尚</a></div>
 					</li>
 					<li>
-					     <div class="post"><a href="#"><img src="./images/header_img3.jpg" alt="" width="110px" height="160px"></a></div>
+					     <div class="post"><a href="#"><img class="lazy" data-original="./images/header_img3.jpg" alt="" width="110px" height="160px"></a></div>
 						<div class="title"><a href="#">视觉经典</a></div>
 					</li>
 					<li>
-						<div class="post"><a href="#"><img src="./images/header_img4.jpg" alt="" width="110px" height="160px"></a></div>
+						<div class="post"><a href="#"><img class="lazy" data-original="./images/header_img4.jpg" alt="" width="110px" height="160px"></a></div>
 						<div class="title"><a href="#">时尚性感</a></div>
 					</li>
 				</ul>
@@ -132,7 +139,7 @@
 					<p class="qq"><span>因业务发展需要，爱燕子视觉启用全新官 方企业qq，号码是：000000........因业务发展需要，爱燕子视觉启用全新官因业务发展需要，爱燕子视觉启用全新官</span></p>
 					<ul>
 						<li class="clearfix">
-							<img src="./images/aug.png" alt="" width="61px" height="37px">
+							<img class="lazy" data-original="./images/aug.png" alt="" width="61px" height="37px">
 							 <div class="detail">
 								<a href="#">【8月展会团购活动】爱燕子视觉</a>
 								<p>TIME:2010/08/06</p>
@@ -140,7 +147,7 @@
 						</li>
 						<li class="center-border"></li>
 						<li class="clearfix">
-							<img src="./images/aug.png" alt="" width="61px" height="37px">
+							<img class="lazy" data-original="./images/aug.png" alt="" width="61px" height="37px">
 							 <div class="detail">
 								<a href="#">【8月展会团购活动】爱燕子视觉</a>
 								<p>TIME:2010/08/06</p>
@@ -160,42 +167,42 @@
 				</div>
 				<div class="content clearfix">
 					<div class="image-big">
-						<img src="./images/fit.jpg" alt="" width="213px" height="320px;">
+						<img class="lazy" data-original="./images/fit.jpg" alt="" width="213px" height="320px;">
 						<h2><a href="#">浅忆清风</a></h2>
 					</div>
 					<ul>
 						<li>
-							<img src="./images/a.jpg" alt="" width="217px" height="145px;">
+							<img class="lazy" data-original="./images/a.jpg" alt="" width="217px" height="145px;">
 						<div class="clearfix intro"><a href="#" class="title">维也纳婚礼</a>           
 							<time class="data">2010-9-10</time>
 						</div>
 						</li>
 						<li>
-							<img src="./images/d.jpg" alt="" width="217px" height="145px;">
+							<img class="lazy" data-original="./images/d.jpg" alt="" width="217px" height="145px;">
 						<div class="clearfix intro"><a href="#" class="title">维也纳婚礼</a>           
 							<time class="data">2010-9-10</time>
 						</div>
 						</li>
 						<li>
-							<img src="./images/f.jpg" alt="" width="217px" height="145px;">
+							<img class="lazy" data-original="./images/f.jpg" alt="" width="217px" height="145px;">
 						<div class="clearfix intro"><a href="#" class="title">维也纳婚礼</a>           
 							<time class="data">2010-9-10</time>
 						</div>
 						</li>
 						<li>
-							<img src="./images/c.jpg" alt="" width="217px" height="145px;">
+							<img class="lazy" data-original="./images/c.jpg" alt="" width="217px" height="145px;">
 						<div class="clearfix intro"><a href="#" class="title">维也纳婚礼</a>           
 							<time class="data">2010-9-10</time>
 						</div>
 						</li>
 						<li>
-							<img src="./images/e.jpg" alt="" width="217px" height="145px;">
+							<img class="lazy" data-original="./images/e.jpg" alt="" width="217px" height="145px;">
 						<div class="clearfix intro"><a href="#" class="title">维也纳婚礼</a>           
 							<time class="data">2010-9-10</time>
 						</div>
 						</li>
 						<li>
-							<img src="./images/g.jpg" alt="" width="217px" height="145px;">
+							<img class="lazy" data-original="./images/g.jpg" alt="" width="217px" height="145px;">
 						<div class="clearfix intro"><a href="#" class="title">维也纳婚礼</a>           
 							<time class="data">2010-9-10</time>
 						</div>
@@ -217,7 +224,7 @@
 						<ul class="clearfix">
 							<li >
 							    <div class="post">
-									<img src="./images/graph_1.png" alt="" width="100px" height="123px">
+									<img class="lazy" data-original="./images/graph_1.png" alt="" width="100px" height="123px">
 									<div class="more"><a href="#">MORE</a></div>
 							    </div>
 								<div class="intro"> 
@@ -228,7 +235,7 @@
 						    </li>
 						    <li > 
 							    <div class="post">
-									<img src="./images/graph_2.png" alt="" width="100px" height="123px">
+									<img class="lazy" data-original="./images/graph_2.png" alt="" width="100px" height="123px">
 									<div class="more"><a href="#">MORE</a></div>
 							    </div>
 								<div class="intro"> 
@@ -247,10 +254,10 @@
 					</div>
 					<div class="item">
 						<ul class="clearfix">
-							<li><a href="#"><img src="./images/item_img_1.png" alt="" width="137px" height="193px;"></a></li>
-							<li><a href="#"><img src="./images/item_img_2.png" alt="" width="137px" height="193px;"></a></li>
-							<li><a href="#"><img src="./images/item_img_3.png" alt="" width="137px" height="193px;"></a></li>
-							<li><a href="#"><img src="./images/item_img_4.png" alt="" width="137px" height="193px;"></a></li>
+							<li><a href="#"><img class="lazy" data-original="./images/item_img_1.png" alt="" width="137px" height="193px;"></a></li>
+							<li><a href="#"><img class="lazy" data-original="./images/item_img_2.png" alt="" width="137px" height="193px;"></a></li>
+							<li><a href="#"><img class="lazy" data-original="./images/item_img_3.png" alt="" width="137px" height="193px;"></a></li>
+							<li><a href="#"><img class="lazy" data-original="./images/item_img_4.png" alt="" width="137px" height="193px;"></a></li>
 						</ul>
 					</div>
 				</li>
