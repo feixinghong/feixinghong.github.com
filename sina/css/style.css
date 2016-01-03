@@ -1,4 +1,4 @@
-body{border-top: 3px solid #ff8500;font-size: 12px;}
+body{border-top: 3px solid #ff8500;font-size: 12px;}/* 
 body * { outline: 2px dotted red }
 body  * * { outline: 2px dotted green }
 body   * * * { outline: 2px dotted orange }
@@ -7,7 +7,7 @@ body   * * * * * { outline: 1px solid red }
 body   * * * * * * { outline: 1px solid green }
 body   * * * * * * * { outline: 1px solid orange }
 body   * * * * * * * * { outline: 1px solid blue }
-body   * * * * * * * * *{ outline: 1px solid black }
+body   * * * * * * * * *{ outline: 1px solid black } */
 .toolbar{background: #fcfcfc;width: 100%;border-bottom: 2px solid #edeef0}
 .toolbar .toolbar-wrap,.content{margin: 0px auto;width: 965px;}
 .toolbar-l {float: left;list-style: none;}
