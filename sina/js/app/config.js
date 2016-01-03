@@ -394,8 +394,8 @@
             cityCode:"./js/cityMap.js"
         },
         template:{
-            pm25:'空气质量：<span class="range <%=classname%>"> <%=text%></span><span class="num"><%=num%></span>',
-            weather:'<a href="#"><%=city%><span>&nbsp;<%=weather%></span> <%=temperature%><sup>。</sup>C<span class="pm25">空气质量：<span class="range range1">优</span><span class="num">23</span></span></a>'
+            pm25:'<span class="range <%=classname%>"> <%=text%></span><span class="num"><%=num%></span>',
+            weather:'<a href="#"><%=city%><span>&nbsp;<%=weather%></span> <%=temperature%><sup>。</sup>C<span class="pm25"></span></a>'
         },
         Cookie:{
             get: function( n ) {
