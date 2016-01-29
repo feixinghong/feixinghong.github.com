@@ -63,12 +63,12 @@ body   * * * * * * * * *{ outline: 1px solid black } */
 	margin:0px;float: left;position: relative;top: 10px;}
 .area-2  .activity h3{padding: 11px 0px 16px;text-align: center;color: #f86e9e;font-weight: lighter;font-size: 14px;}
 .area-2 .content{margin-top: 15px;}
-.area-2  .activity p.qq{color:#3a3a3a;line-height: 20px;height: 40px;text-overflow:ellipsis; overflow: hidden;}
-.area-2  .activity img{margin-right: 12px;max-width: 61px;float: left;}
-.area-2  .activity ul{margin-top: 10px;}
-.area-2  .activity .detail{float: left;line-height: 25px;}
-.area-2  .activity .detail p,.area-2  .activity .detail a{color: #7d7d7d;}
-.area-2  .activity .detail p{margin-left: 2px;}
+.area-2 p.qq{color:#3a3a3a;line-height: 20px;height: 40px;text-overflow:ellipsis; overflow: hidden;}
+.area-2 img{margin-right: 12px;max-width: 61px;float: left;}
+.area-2 ul{margin-top: 10px;}
+.area-2 .detail{float: left;line-height: 25px;}
+.area-2 .detail p,.area-2 .detail a{color: #7d7d7d;}
+.area-2 .detail p{margin-left: 2px;}
 .center-border{background: url(../images/center_border.png);height: 1px;margin: 10px 0px;}
 .area-4 {margin-top: 21px;}
 .area-3 .more{margin-right: 40px;}
@@ -101,16 +101,16 @@ body   * * * * * * * * *{ outline: 1px solid black } */
 .area-4  .content p,.data{color: #2c2a26}
 .area-4 .post{float: left;}
 .area-4 .content .more{float: none;text-align: center;}
-.area-4 .content .more a{background-color: #f86e9e}
+.area-4 .content  a{background-color: #f86e9e}
 .area-4 li.dress h1{background: url(../images/wrap_header.png) no-repeat;background-position: -155px -20px;width: 165px;}
-.area-4 ul.many>li{margin-top: 40px;}
-.area-4 li.dress .item ul{margin: 0px 23px;}
+.area-4 .many>li{margin-top: 40px;}
+.area-4  .item ul{margin: 0px 23px;}
 .area-4 .item{padding: 24px 0px 30px;background: url(../images/bg_dress.png) no-repeat;}
 .area-4 .item li{padding-right: 10px;float: left;}
 .area-4 .item li:last-child{padding-right: 0px;}
-.area-4 span.chinese{color:#f9733d;font-size: 20px;margin-left:27px; }
+.area-4 .chinese{color:#f9733d;font-size: 20px;margin-left:27px; }
 .area-4 h2{font-size: 15px;color: #555}
-.area-4 span.english{color:#f86e9e;font-size: 13px;}
-.area-4 span.vip{margin-left: 225px;}
-.area-4 .actions .head>*{float: left;}
-.area-4 .actions .more{float: right;}
+.area-4 .english{color:#f86e9e;font-size: 13px;}
+.area-4 .vip{margin-left: 225px;}
+.area-4  .head>*{float: left;}
+.area-4  .more{float: right;}

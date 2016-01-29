@@ -25,7 +25,7 @@ define( function() {
      parent = $( c[ "domparent" ] );
       c.$tabs = parent.find( ".js-tab" );
       c.$contents = parent.find( ".js-tab-content .item" );
-      c.$tabs.on( c.triggerType, function() {
+      parent.delegate( ".js-tab" ,c.triggerType , function() {
         var $this = $( this ), index = $this.data( "index" ) || $this.index();
 
         //If($this.hasClass('.current')) return;
@@ -36,7 +36,7 @@ define( function() {
         c.$contents.removeClass( "active" ).eq( index ).addClass( "active" );
 
         // $this.trigger('tab.active', index);
-      } );
+      } )
 
       c.$tabs.eq( 0 ).trigger( c.triggerType );
   };
